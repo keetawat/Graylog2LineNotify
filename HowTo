@@ -1,9 +1,10 @@
 Installation
 1. Register token by open https://notify-bot.line.me/en/
-2. Put this index.html into your HTTP Alarm Callback directory.
-3. Change token variable to your Line Notify Token.
-4. Setup Graylog Notification to use HTTP Alarm Callback and specify your URL
-5. Have a funny!!!
+2. Config your Web Server to recognize PHP Code inside HTML.
+3. Put this index.html into your HTTP Alarm Callback directory.
+4. Change token variable to your Line Notify Token.
+5. Setup Graylog Notification to use HTTP Alarm Callback and specify your URL
+6. Have a funny!!!
 
 Credit
 Many thanks for Many thanks in this function from Nattapon Sirikamonnet blog below
