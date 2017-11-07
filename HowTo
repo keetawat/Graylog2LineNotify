@@ -4,7 +4,9 @@ Installation
 3. Put this index.html into your HTTP Alarm Callback directory.
 4. Change token variable to your Line Notify Token.
 5. Setup Graylog Notification to use HTTP Alarm Callback and specify your URL
-6. Have a funny!!!
+6. Customize your own message set at line 57.
+7. Have a funny!!!
+
 
 Credit
 Many thanks for Many thanks in this function from Nattapon Sirikamonnet blog below
