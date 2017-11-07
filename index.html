@@ -26,8 +26,8 @@ function send_line_notify($message, $token)
 $json_data = json_decode(file_get_contents('php://input'), true);
 $data_message = $json_data;
 $aa="";
-$array_1=$data_message;
 
+$array_1=$data_message;
 foreach ($array_1 as $array_2){
         if (!is_array($array_2)){
         $aa= $aa.$array_2."\n";
@@ -49,9 +49,15 @@ foreach ($array_1 as $array_2){
                 }
 }
 
-                $message=$aa;
-                $token = 'PUT YOUR TOKEN HERE';
+                //Split message to array by EndOfLine
+                $array=explode(PHP_EOL,$aa);
+
+
+                //Customize your own message by group of array
+                $message="\n".$array[0]."\n".$array[15];
+                $token = 'YOUR TOKEN IS HERE';
                 send_line_notify($message, $token);
-                $aa="";
+$aa="";
+
 ?>
 </html>
